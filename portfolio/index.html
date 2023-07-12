@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShinWoo의 포트폴리오</title>
+    <style>
+        /* 공통 스타일 */
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #15202b;
+            color: #cccccc;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.2em;
+            font-family: 'Caprasimo-Regular', sans-serif;
+        }
+
+        a {
+            color: #cdcdcd;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #4cceda;
+        }
+
+        /* 헤더 스타일 */
+        header {
+            padding: 250px 0;
+            background-color: #15202b;
+            background-image: url('https://cdn.pixabay.com/photo/2015/12/05/19/49/bridge-1078671_1280.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        /* 네비게이션 스타일 */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: #15202b;
+            padding: 15px;
+            opacity: 0.8;
+            transition: top 0.3s ease-in-out;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar li {
+            margin: 0 10px;
+        }
+
+        /* 컨택트 스타일 */
+        .contact {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .contact a {
+            margin: 5px;
+            font-size: 1.8em;
+            font-family: 'SDMiSaeng', sans-serif;
+        }
+
+        /* 내 정보 스타일 */
+        .me {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        /* 테크 스택 스타일 */
+        .tech-stack {
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 80px;
+        }
+
+        .tech-stack img {
+            margin: 15px;
+            display: inline-block;
+        }
+
+        /* 지도 스타일 */
+        #map {
+            height: 450px;
+            margin-top: 40px;
+        }
+
+        /* 웹 폰트 */
+        @font-face {
+            font-family: 'Caprasimo-Regular';
+            src: local('Caprasimo-Regular'),
+                url('Caprasimo-Regular.eot'),
+                url('Caprasimo-Regular.woff') format('woff'),
+                url('Caprasimo-Regular.ttf') format('truetype');
+        }
+        @font-face {
+            font-family: 'SDMiSaeng';
+            src: local('SDMiSaeng'),
+                url('SDMiSaeng.eot'),
+                url('SDMiSaeng.woff') format('woff'),
+                url('SDMiSaeng.ttf') format('truetype');
+        }
+
+        .sdms-font {
+            font-family: 'SDMiSaeng', sans-serif;
+            color: rgb(192, 200, 250);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1 class="header-text">Lee ShinWoo</h1>
+            <ul>
+                <li><a href="#home">홈</a></li>
+                <li><a href="#contact">연락처</a></li>
+                <li><a href="#me">소개</a></li>
+                <li><a href="#tech-stack">스펙</a></li>
+            </ul>
+        </div>
+    </header>
+    <h1 class="sdms-font">나만의 꿈을 좇는 개발자</h1>
+    <h1 id="contact">Contact</h1>
+    <div class="contact">
+        <a href="mailto:lsw071218@gmail.com">메일</a>
+        <br>
+        <a href="https://www.instagram.com/satell_07/">인스타그램</a>
+        <br>
+        <a href="https://github.com/Satellite1218/">깃허브</a>
+    </div>
+    <h1 id="me">ME</h1>
+    <div class="me">
+        <img src="https://github-readme-stats.vercel.app/api?username=Satellite1218&show_icons=true" alt="Satellite1218의 GitHub 통계">
+    </div>
+    <h1 id="tech-stack">Tech Stack</h1>
+    <div class="tech-stack">    
+        <img src="https://img.shields.io/badge/-263235?style=flat-square&logo=C&logoColor=white" alt="C" width="150" height="100" />
+        <img src="https://img.shields.io/badge/-4A0BA3?style=flat-square&logo=Csharp&logoColor=color" alt="C#" width="150" height="100" />
+        <img src="https://img.shields.io/badge/-E34F26?style=flat-square&logo=HTML5&logoColor=white" alt="HTML5" width="150" height="100" />
+        <img src="https://img.shields.io/badge/-1572B6?style=flat-square&logo=CSS3&logoColor=white" alt="CSS3" width="150" height="100" />
+    </div>
+    <h1 id="learning">Learning</h1> <!-- 기존의 "Learuning"을 "Learning"으로 수정 -->
+    <div class="tech-stack">    
+        <img src="https://img.shields.io/badge/-00599C?style=flat-square&logo=C%2B%2B&logoColor=white" alt="C++" width="150" height="100" />
+        <img src="https://img.shields.io/badge/-747474?style=flat-square&logo=Unity&logoColor=white" alt="Unity" width="150" height="100" />
+        <img src="https://img.shields.io/badge/-3162C7?style=flat-square&logo=Python&logoColor=white" alt="Python" width="150" height="100" />
+        <img src="https://img.shields.io/badge/-F7DF1E?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript" width="150" height="100" />
+    </div>
+    <h1>My School</h1>
+    <div id="map"></div>
+    <script>
+        function scrollToSection(id) {
+            var element = document.getElementById(id);
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        var navbarLinks = document.querySelectorAll('.navbar a');
+        navbarLinks.forEach(function(link) {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+                var target = this.getAttribute('href').substring(1);
+                if (target === 'home') {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                } else {
+                    scrollToSection(target);
+                }
+            });
+        });
+
+        function initMap() {
+            var mapOptions = {
+                center: { lat: 35.1888, lng: 128.9035 },
+                zoom: 17,
+            };
+            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+    
+            var marker = new google.maps.Marker({
+                position: { lat: 35.1888, lng: 128.9035 },
+                map: map,
+                title: "My School",
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbUQ-smDuJeMWKQhqkWr104Z0Z7HeXG1I&callback=initMap" async defer></script>
+</body>
+</html>
