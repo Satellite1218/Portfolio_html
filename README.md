@@ -1,2 +1,3 @@
 # Portfolio_html
-html 포토폴리오 입니다
+1114 이신우 HTML과제
+주제: 포토폴리오 사이트
